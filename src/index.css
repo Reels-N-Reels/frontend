@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+@font-face {
+  font-family: "MonumentExtended-Regular";
+  src: local("MonumentExtended-Regular"), url("./assets/fonts/MonumentExtended-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "MonumentExtended-Ultrabold";
+  src: local("MonumentExtended-Ultrabold"), url("./assets/fonts/MonumentExtended-Ultrabold.otf") format("opentype");
+}
+
+:root {
+    --font-sub: "Montserrat", sans-serif;
+    --font-main: "MonumentExtended-Regular";
+    --color-primary: #750000;
+    --color-primary-light: #CC5959;
+    --color-bg-primary: #FFF4F4;
+    --color-bg-secondary: #FFE5E5;
+    --color-grey: #5F5F5F;
+    --color-dark: #1A1A1A;
+    --color-grey-alt: #A1A1A1;
+}

@@ -1,0 +1,36 @@
+.slick-slider {
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+}
+.logo-slider .slick-slide {
+  padding: 0.5rem 6rem 2rem;
+}
+.logo-image {
+  max-width: 20rem;
+  filter: saturate(0);
+}
+.logo-image:hover {
+  filter: saturate(1);
+  transition: filter 400ms ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .slick-slider .slick-slide {
+    padding: 0.5rem 4rem 2rem;
+  }
+
+  .logo-image {
+    max-width: 15rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slick-slider .slick-slide {
+    padding: 0.5rem 2rem 2rem; 
+  }
+
+  .logo-image {
+    max-width: 10rem;
+  }
+}

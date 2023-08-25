@@ -1,0 +1,159 @@
+.artists {
+  overflow: hidden;
+}
+
+.artists-slider {
+  padding-top: 6rem;
+  align-items: center;
+}
+
+.artists-slider .slick-slide {
+  padding: 0 !important;
+}
+
+.artists-slider h1 {
+  font-family: var(--font-main);
+  font-size: 0.8rem;
+  padding: 0 4rem 1rem;
+}
+
+.artists-slider-image {
+  width: 100%; /* Adjusted to fill the available width */
+  height: 25rem;
+  overflow: hidden;
+}
+
+.artists-slider-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(1);
+}
+
+.artists-slider-image:hover img {
+  transform: scale(1.2);
+  filter: saturate(0);
+  transition: transform 300ms ease-in-out, filter 300ms ease-in-out;
+}
+
+.artists-featured {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 4rem 1rem;
+}
+
+.artists-featured h1 {
+  font-family: var(--font-main);
+  font-size: 0.8rem;
+  padding-bottom: 4rem;
+}
+
+.artists-featured-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-artist {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Adjusted alignment */
+  margin-bottom: 4rem;
+}
+
+.featured-artist:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.featured-artist-bio {
+  flex: 1; /* Allow the bio section to take available space */
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.featured-artist-image {
+  max-width: 20rem; /* Limit the maximum width */
+  height: auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.featured-artist-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 4% 0 0;
+}
+
+.featured-artist-image:hover img {
+  filter: saturate(0);
+  transition: filter 300ms ease-in-out;
+}
+
+.featured-artist-bio h2 {
+  color: #1a1a1a;
+  font-size: 1rem;
+  font-family: var(--font-main);
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.featured-artist-bio p {
+  font-size: 1.5rem;
+  font-family: var(--font-sub);
+  font-weight: 600;
+  color: #5f5f5f;
+}
+
+.featured-artist:nth-child(2) .featured-artist-bio {
+  text-align: right;
+}
+
+@media screen and (max-width: 900px) {
+  .featured-artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .featured-artist-bio {
+    align-items: center;
+    text-align: justify;
+    padding: 1rem 0;
+  }
+  .featured-artist-bio h2 {
+    padding-bottom: 0.5rem;
+  }
+  .featured-artist-bio p {
+    font-size: 1rem;
+  }
+  .featured-artist-image {
+    max-width: 100%;
+  }
+  .featured-artist:nth-child(2) .featured-artist-bio {
+    text-align: justify;
+  }
+  .featured-artist:nth-child(even) {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .artists-slider-image {
+    height: 10rem;
+  }
+  .artists-slider h1 {
+    font-family: var(--font-main);
+    font-size: 0.8rem;
+    padding: 0 2rem 0.5rem;
+  }
+  .artists-slider {
+    padding-top: 3rem;
+  }
+  .artists-featured {
+    padding: 4rem 2rem 1rem;
+  }
+  .artists-featured h1 {
+    padding-bottom: 1rem;
+  }
+}

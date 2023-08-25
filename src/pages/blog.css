@@ -1,0 +1,36 @@
+.blog .navbar {
+  background-color: rgba(26, 26, 26, 0.8);
+}
+.blog-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.blog-content h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.blog-content h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.blog-content h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.blog-content h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.blog-content h6 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.blog-content a {
+  color: #cc5959;
+}
+.blog-content p {
+  font-size: 1rem;
+}
+.blog-content a:hover {
+  text-decoration: underline;
+}

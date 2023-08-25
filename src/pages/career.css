@@ -1,0 +1,50 @@
+.career {
+  overflow: hidden;
+}
+.career-container {
+  padding: 2rem 4rem;
+}
+
+.career-box {
+  border-width: 1px;
+  border-radius: 0.6rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.career-box:hover {
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(204, 89, 89, 0.3);
+}
+h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.career-details {
+  display: flex;
+  flex-direction: row;
+}
+.career-type {
+  margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .career-container {
+    padding: 2rem 2rem;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+}
