@@ -29,7 +29,7 @@ function App() {
     <ChakraProvider>
       <BrowserRouter>
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/works" element={<Works />} />
           <Route path="/services" element={<Services />} />
@@ -54,6 +54,7 @@ function App() {
               )
             }
           />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>
