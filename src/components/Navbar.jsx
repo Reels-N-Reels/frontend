@@ -18,6 +18,7 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    document.querySelector(".navbar").classList.toggle("active", !isMenuOpen);
   };
 
   const handleItemClick = (item) => {

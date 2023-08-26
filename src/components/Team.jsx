@@ -5,8 +5,17 @@ import teamImage2 from "./../assets/images/coo.jpg";
 import teamImage3 from "./../assets/images/cto.jpg";
 import teamImage4 from "./../assets/images/cfo.jpg";
 import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+
 
 const Team = () => {
+  const navigate = useNavigate();
+
+  
+  const handleNavigate = () => {
+    navigate("/career/");
+  };
+
   return (
     <div className="team">
       <h1>Our Team</h1>
@@ -159,7 +168,7 @@ const Team = () => {
             talent and ideas.
           </h2>
         </div>
-        <button onClick={""}>Join us</button>
+        <button onClick={handleNavigate}>Join us</button>
       </div>
     </div>
   );
