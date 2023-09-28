@@ -101,7 +101,7 @@ const Footer = () => {
           <ul className="contact-links">
             <li className="contact-link">
               Phone:
-              <span> +91-98564-07809, +91-98564-07809</span>
+              <span> +91-70089-45350</span>
             </li>
             <li className="contact-link">
               Email:
