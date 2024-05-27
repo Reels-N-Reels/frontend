@@ -1,8 +1,8 @@
 import React from "react";
 import "./team.css";
 import teamImage1 from "./../assets/images/team (1).jpg";
-import teamImage2 from "./../assets/images/coo.jpg";
-import teamImage3 from "./../assets/images/cto.jpg";
+import teamImage2 from "./../assets/images/admin.jpg";
+import teamImage3 from "./../assets/images/vfx.jpg";
 import teamImage4 from "./../assets/images/cfo.jpg";
 import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
@@ -85,8 +85,8 @@ const Team = () => {
             </div>
             <img src={teamImage2} alt="Team2" />
           </div>
-          <h1>Debasish Prusty</h1>
-          <p>Chief Operating Officer</p>
+          <h1>Smruti Rani Pradhan</h1>
+          <p>Administration & Digital Marketing Executive</p>
         </div>
         <div className="team-member">
           <div className="team-member-container">
@@ -118,8 +118,8 @@ const Team = () => {
             </div>
             <img src={teamImage3} alt="Team3" />
           </div>
-          <h1>Subrata Ku. Swain</h1>
-          <p>Chief Technology Officer</p>
+          <h1>Arya Debashis</h1>
+          <p>Editor & VFX Artist </p>
         </div>
         <div className="team-member">
           <div className="team-member-container">
