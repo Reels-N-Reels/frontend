@@ -61,7 +61,8 @@ const Team = () => {
               <div
                 className="social-icon"
                 onClick={() => {
-                  window.location.href = "https://example.com";
+                  window.location.href =
+                    "https://www.instagram.com/tanyshree";
                 }}
               >
                 <FaInstagram color="#750000" />
@@ -69,7 +70,8 @@ const Team = () => {
               <div
                 className="social-icon"
                 onClick={() => {
-                  window.location.href = "https://example.com";
+                  window.location.href =
+                    "https://www.facebook.com/smruti.pradhan.988";
                 }}
               >
                 <FaFacebookF color="#750000" />
@@ -77,7 +79,7 @@ const Team = () => {
               <div
                 className="social-icon"
                 onClick={() => {
-                  window.location.href = "https://example.com";
+                  window.location.href = "https://x.com/lost_manzil";
                 }}
               >
                 <FaTwitter color="#750000" />
@@ -94,7 +96,8 @@ const Team = () => {
               <div
                 className="social-icon"
                 onClick={() => {
-                  window.location.href = "https://example.com";
+                  window.location.href =
+                    "https://www.instagram.com/bhadra_bhaina/";
                 }}
               >
                 <FaInstagram color="#750000" />
@@ -102,7 +105,8 @@ const Team = () => {
               <div
                 className="social-icon"
                 onClick={() => {
-                  window.location.href = "https://example.com";
+                  window.location.href =
+                    "https://www.facebook.com/people/Arya-Debashis/61552079972615/";
                 }}
               >
                 <FaFacebookF color="#750000" />
