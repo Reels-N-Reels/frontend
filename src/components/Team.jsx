@@ -55,7 +55,7 @@ const Team = () => {
           <h1>Sthita Pattnaik</h1>
           <p>Founder & Chief Executive Officer</p>
         </div>
-        <div className="team-member">
+{/*         <div className="team-member">
           <div className="team-member-container">
             <div className="team-member-icons">
               <div
@@ -89,8 +89,8 @@ const Team = () => {
           </div>
           <h1>Smruti Rani Pradhan</h1>
           <p>Administration & Digital Marketing Executive</p>
-        </div>
-        <div className="team-member">
+        </div> */}
+{/*         <div className="team-member">
           <div className="team-member-container">
             <div className="team-member-icons">
               <div
@@ -124,7 +124,7 @@ const Team = () => {
           </div>
           <h1>Arya Debashis</h1>
           <p>Editor & VFX Artist </p>
-        </div>
+        </div> */}
         <div className="team-member">
           <div className="team-member-container">
             <div className="team-member-icons">
