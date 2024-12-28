@@ -1,8 +1,8 @@
 import React from "react";
 import "./team.css";
 import teamImage1 from "./../assets/images/team (1).jpg";
-import teamImage2 from "./../assets/images/admin.jpg";
-import teamImage3 from "./../assets/images/vfx.jpg";
+// import teamImage2 from "./../assets/images/admin.jpg";
+// import teamImage3 from "./../assets/images/vfx.jpg";
 import teamImage4 from "./../assets/images/cfo.jpg";
 import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
